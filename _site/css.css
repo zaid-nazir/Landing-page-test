@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face {
+   font-family: 'ProximaNova-Regular';
+   src: url(ProximaNova-Regular.otf);
+}
+
+@font-face {
+   font-family: 'Proxima Nova ScOsf Extra Condensed Light Italic';
+   src: url(Proxima Nova ScOsf Extra Condensed Light Italic.otf);
+}
+
+.hero{
+             background-image: url(background_image.jpg);
+             background-size: cover;
+       }
+
+
+.header{
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 25px;    
+
+}
+
+
+
+
+.container{
+		     width: 980px;   
+		     margin: 0px auto;
+	         overflow: hidden;
+}
+
+p2 {
+	         font-family: 'Proxima Nova ScOsf Extra Condensed Light Italic';
+	         font-size: 15px;
+	         line-height: 24px;
+	         font-weight: 300;
+	         color: #fff;
+}
+
+.header::after {
+			    content: "";
+			    border: 1px solid white;
+			    display: inline-block;
+			    width: 100%;
+			    opacity: 0.38;
+			    margin-top: 25px;
+			}
+
+/*hr{
+	         font-size: 1px;
+	         width: 940px;
+	         color: #fff;
+	         margin-top: 25px;
+	         opacity: 0.38;
+}*/
+.hero-text{
+             width: 60%;
+             float: left;
+	         overflow: hidden;
+
+
+
+}
+
+
+
+.hero-text h1{            
+	         font-family: 'ProximaNova-Regular';
+	         font-size: 30px;
+	         line-height: 35px;
+	         font-weight: 700;
+	         color: #fff;
+	         padding-top: 56px;
+	         letter-spacing: 2px;
+
+
+}
+.hero-text h2{            
+	         font-family: 'Proxima Nova ScOsf Extra Condensed Light Italic';
+	         font-size: 22px;
+	         line-height: 43px;
+	         font-weight: 300;
+	         color: #fff;
+	         padding-top: 15px;
+
+}
+.hero-text h3{            
+	         font-family: 'Proxima Nova ScOsf Extra Condensed Light Italic';
+	         font-size: 18px;
+	         line-height: 21px;
+	         font-weight: 700;
+	         color: #fff;
+	         
+
+}
+.hero-text span {
+
+			padding-left: 15px;
+			padding-top: 20px;
+
+
+}
+.fa{
+
+			padding-top: 20px;
+}
+
+
+.form-container{
+	               height: 480px;
+	               background-color: #ececec;
+	             width: 38%;
+	             float: right;
+	             overflow: hidden;
+	             margin-bottom: 30px;
+	             text-align: center;
+
+
+}
+.form-container h1 {
+	                    font-size: 18px;
+	                    line-height: 21px;
+	                    font-weight: 900;
+	                   font-family:'ProximaNova-Regular';
+	                   padding-top: 30px;
+	                   padding-bottom: 12px; 
+	                   color: #1c1c1c;
+
+
+}
+input{
+		width: 240px;
+		height: 32px;
+		margin-top: 8px;
+}
+.request-form{
+                width: 285px;
+			    height: 55px;
+			    background-color:#ffb400;
+			    
+	            margin-top: 10px;
+	            color: #fefefe;
+			    font-size: 17px;
+			    line-height: 24px;
+			    font-family: "ProximaNova-Regulart";
+			    font-weight: 300;
+	            text-align: center;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ color: #8b8b8b ;
+ font-family: 'Montserrat';
+ font-size: 14px;
+ padding-left: 20px;
+ line-height: 20px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ color: #8b8b8b ;
+ font-family: 'ProximaNova-Regular';
+ font-size: 14px;
+ padding-left: 20px;
+ line-height: 20px;
+}
+
+form p{
+   font-family: 'Proxima Nova ScOsf Extra Condensed Light Italic';
+   font-size: 13px;
+   font-weight: 100;
+   padding-top: 10px; 
+   color: #818080;
+
+}
+form a{
+	   font-family: 'ProximaNova-Regular';
+	   font-size: 13px;
+	   font-weight: 300;
+	   padding-top: 10px; 
+	   color: #000;
+
+}
+
+
+
+
+
+
+
+.our-partners{
+              padding-top: 65px;
+
+              background-color: #fff;
+              text-align: center;
+}
+.our-partners h1{
+
+                font-family: 'ProximaNova-Regular';
+                font-weight: 700;
+                font-size:26px;
+                line-height: 43px;
+                color: #252a2e;
+}
+.icon{
+			    background-image: url(our_partners.jpg);
+			    width: 134px;
+			    height: 100px;
+			    float: left;
+			    margin-top: 56px;
+			    margin-bottom: 85px;
+}
+		#fox{       background-position: -134px 0px;}
+
+		#asos{       background-position: -268px 0px;}
+
+		#tayota{       background-position: -402px 0px;}
+		
+		#loreal{       background-position: -536px 0px;}
+
+		#campbells{       background-position: -670px 0px;}
+
+		#nivea{       background-position: -808px 0px;}
+
+.about-us{
+	       background-color: #f6f6f6;
+}		
+.top{
+	text-align: center;
+    margin-top: 110px;
+}
+.about-us h1{
+              font-family: 'ProximaNova-Regular';
+                font-weight: 700;
+                font-size:26px;
+                line-height: 43px;
+                color: #252a2e;
+  }              
+  .about-us p{
+              font-family: 'ProximaNova-Regular';
+                font-weight: 300;
+                font-size:16px;
+                line-height: 24px;
+                color: #252a2e;
+  }  
+.connect{
+				padding-top: 130px;
+
+}  
+.connect-image{
+			      width: 40%;
+			      float: left;
+
+}
+.connect-text{
+				width: 60%;
+				float:left;
+				margin-top: 32px;
+}
+.collect{
+	
+			margin-top: 110px;
+			display: inline-flex;
+}  
+
+
+
+.collect-text{
+				width: 60%;
+				float:left;
+}
+
+.collect-image{
+			      width: 40%;
+			      float: left; 
+ }                        
+ .convert{
+			padding-top: 130px;
+
+}  
+.convert-image{
+			      width: 40%;
+			      float: left;
+
+}
+.convert-text{
+				width: 60%;
+				float:left;
+				padding-top: 72px;
+}
+.submit-button{    
+			width: 287px;
+		    height: 55px;
+		    background-color:#ffb400;
+		    margin-bottom: 120px;
+            margin-top: 155px;
+            color: #fefefe;
+		    font-size: 17px;
+		    line-height: 24px;
+		    font-family: "Montserrat";
+		    font-weight: 300;
+            text-align: center;
+}
+.testemonial{
+	          margin-top: 120px;
+	          overflow: hidden;
+
+
+
+
+
+}
+
+
+
+.testemonial-image{
+		            width: 40%;
+	                float:left;
+	                padding-left: 65px;
+
+}
+.testemonial-text{  
+                     width: 40%;
+	                float:left;
+	                 padding-left: 80px;
+
+
+}
+.testemonial-text h1{
+			             font-family: 'ProximaNova-Regular';
+		                font-weight: 700;
+		                font-size:26px;
+		                line-height: 43px;
+		                color: #252a2e;
+}
+.testemonial-text p{ 
+			            font-family: 'ProximaNova-Regular';
+		                font-weight: 300;
+		                font-size:16px;
+		                line-height: 24px;
+		                color: #252a2e;
+		                 padding-top: 30px;
+                         padding-bottom: 55px;
+                          letter-spacing: 0.06205em;
+  }  
+
+.testemonial-text p1{
+	                    font-family: 'ProximaNova-Regular';
+		                font-weight: 900;
+		                font-size:16px;
+		                line-height: 23px;
+		                color: #252a2e;
+}
+
+
+footer{ 
+	   
+	     background-color: #284169;
+	     text-align: center;
+	     overflow: hidden;
+	     padding-top: 125px !important;
+}
+footer h1{  
+	                    font-family: 'ProximaNova-Regular';
+		                font-weight: 900;
+		                font-size:30px;
+		                line-height:43px;
+		                color: #fff;
+}
+
+footer p{
+	                    font-family: 'Proxima Nova ScOsf Extra Condensed Light Italic';
+		                font-weight: 300;
+		                font-size:18px;
+		                line-height:25px;
+		                color: #fff;
+		                  padding-left: 125px;
+                          padding-right: 125px;
+             
+	      
+}
+
+footer p2{
+	                    font-family: 'Proxima Nova ScOsf Extra Condensed Light Italic';
+		                font-weight: 100;
+		                font-size:15px;
+		                line-height:19px;
+		                color: #fff;
+             
+	      
+}
+
+
+.request-footer{
+	            width: 340px;
+			    height: 75px;
+			    background-color:#ffb400;
+			    margin-bottom: 15px;
+	            margin-top: 60px;
+	            color: #fefefe;
+			    font-size: 22px;
+			    line-height: 24px;
+			    font-family: "Montserrat";
+			    font-weight: 300;
+	            text-align: center;
+}
+
+.copy-right{
+	                    font-family: 'Proxima Nova ScOsf Extra Condensed Light Italic';
+		                font-weight: 100;
+		                font-size:15px;
+		                line-height:19px;
+		                color: #fff;
+             
+
+}
+.copy-right::before{
+
+
+					    content: "";
+				    border: 1px solid white;
+				    display: inline-block;
+				    width: 100%;
+				    opacity: 0.38;
+				    margin-top: 70px;
+}

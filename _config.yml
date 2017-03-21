@@ -1,0 +1,3 @@
+markdown: Kramdown
+baseurl: /Landing-page-test
+exclude: ['README.md']
