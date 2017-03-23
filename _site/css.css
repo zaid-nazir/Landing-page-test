@@ -444,6 +444,27 @@ footer p2{
 }
 
 
+@media only screen and   (max-width: 480px){
+
+
+#resp{
+	width: 180px;
+
+}
+.request-form{
+            width: 90%;
+
+
+}
+.form-container{
+
+    width: 70%;
+    padding: 20px;
+
+
+}
+
+}
 
 
 
