@@ -294,11 +294,14 @@ form a{
 				float:left;
 				padding-top: 72px;
 }
+.connect , .collect , .convert{
+
+	overflow: hidden;
+}
 .alignment{
-                 text-align: center;
+                     text-align: center;
 
 }
-
 
 
 .submit-button{    
