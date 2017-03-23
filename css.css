@@ -561,7 +561,7 @@ footer p2{
 
 
 .image-join-us{
-	width: 80%;
+	width: 80% !important;
 }
 
 .testemonial-image{
