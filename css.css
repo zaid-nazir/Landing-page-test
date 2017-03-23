@@ -208,12 +208,13 @@ form a{
                 color: #252a2e;
 }
 .icon{
-			    background-image: url(our_partners.jpg);
+			      background-image: url(our_partners.jpg);
 			    width: 134px;
 			    height: 100px;
 			    float: left;
 			    margin-top: 56px;
 			    margin-bottom: 85px;
+			    display: inline-block;
 }
 		#fox{       background-position: -134px 0px;}
 
