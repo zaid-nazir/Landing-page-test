@@ -559,9 +559,8 @@ footer{
 
 
 }
-
  footer p  {
- 	        width: 90%;
+ 	        
             padding-left: 40px;
             padding-right: 40px;
             margin-top: 20px;
@@ -569,13 +568,11 @@ footer{
             line-height: 20px;
  }
 footer h1  {
-	 	       width: 90%;
-		       padding-left: 40px;
-		       padding-right: 40px;
+	 	       width: 100%;
+		      
 		       font-size: 25px;
 		       line-height: 26px;
  }
-
 
 
 }
