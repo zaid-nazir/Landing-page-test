@@ -554,6 +554,44 @@ footer p2{
 }
 
 }
+
+
+
+@media only screen and (max-width: 1200px ) and (min-width:991px) {
+
+
+.image-join-us{
+	width: 80%;
+}
+
+.testemonial-image{
+				    width: 30%;
+				   padding-left: 0px;
+				   float: left;
+				   
+}
+
+.testemonial-text{
+					 width: 60%;
+					 padding-left: 80px;
+				      float: left;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media  only screen and  (max-width: 991px )and (min-width:768px ){
 
 .hero-text{
