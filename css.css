@@ -294,6 +294,13 @@ form a{
 				float:left;
 				padding-top: 72px;
 }
+.alignment{
+                 text-align: center;
+
+}
+
+
+
 .submit-button{    
 			width: 287px;
 		    height: 55px;
@@ -471,6 +478,11 @@ footer p2{
                  line-height: 20px;
 }
 
+.checked{
+	text-align: left;
+	padding-left: 1%;
+}
+
 
 
 
@@ -520,6 +532,13 @@ footer p2{
 	                 float: none !important;
 
 }
+
+.testemonial-text p {
+	padding-bottom: 25px;
+}
+
+
+
 footer{
         padding-top: 50px !important;
 
@@ -612,9 +631,11 @@ footer h1  {
 
 .testemonial-text{
 					 width: 80%;
-					 padding-left: 80px;
-				    
+					 margin: 0px auto;
+					 float: none;
+				    padding-left: 0px;
 }
+
 
 }
 
